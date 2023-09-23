@@ -793,6 +793,11 @@ video {
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-twitter-blue-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
+}
+
 .focus\:border-b-m:focus {
   border-bottom-width: 0.1875rem;
 }
