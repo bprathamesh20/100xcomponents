@@ -44,11 +44,20 @@ module.exports = {
         'btn-sm':'1.875rem',
         'btn-post':'624.9375rem',
         'inp': '0.25rem',
+        'search': '6249.9375rem',
       },
       width:{
         'btn-m':'20.875rem',
         'btn-l':'27.625rem',
         'inp': '26.625rem',
+        'search': '21.75rem',
+        '1.1': '1.1875rem',
+        '32': '32rem',
+        'tweet': '37.375rem',
+      },
+      height:{
+        'search': '2.4375rem',
+        '22': '22.1875rem',
       },
       fontFamily: {
         'inter': ['Inter', 'sans'],
@@ -64,9 +73,11 @@ module.exports = {
         'm': '0.1875rem',
       },
       spacing: {
+        '0.6': '0.625rem',
         '0.9':'0.9375rem',
         '5.8': '5.8125rem',
         '0.8': '0.9rem',
+        '15.4': '15.4375rem',
       }
 
     },

@@ -104,18 +104,98 @@
       </div>
     </div>
 
-<!-- inputs -->
+    <!-- inputs -->
     <div class="flex flex-col items-start relative">
 
       <div class="group relative">
-        <p class="text-neutral-500 px-1 bg-neutral-1000 text-xs -mt-2 absolute ml-5 z-10 group-focus:text-twitter-blue">Label</p>
-        <input type="text" placeholder="label" class="py-4 px-3 bg-neutral-1000 rounded-inp border-sm border-neutral-500 w-inp absolute block placeholder:text-neutral-600  focus:border-twitter-blue focus:outline-none text-neutral-50">
+        <p class="text-neutral-500 px-1 bg-neutral-1000 text-xs -mt-2 absolute ml-5 z-10 group-focus:text-twitter-blue">
+          Label</p>
+        <input type="text" placeholder="label"
+          class="py-4 px-3 bg-neutral-1000 rounded-inp border-sm border-neutral-500 w-inp absolute block placeholder:text-neutral-600  focus:border-twitter-blue focus:outline-none text-neutral-50">
       </div>
-      
+
+    </div>
+
+    <div class="flex mt-14 gap-3">
+      <img src="/public/images/user-avatar.jpg" alt="">
+      <input type="text"
+        class="w-btn-l bg-neutral-1000 placeholder:text-neutral-600 placeholder:text-xl focus:outline-none text-neutral-50 caret-twitter-blue"
+        placeholder="What's Happening?! ">
+    </div>
+
+    
+
+    <div class="flex w-search mb-4 relative py-0.6  items-center  bg-searchbar-fill rounded-search gap-0.9 pl-4 h-search">
+      <div class="flex justify-center ">
+        <span class="flex items-center leading-normal ">
+          <img src="/public/images/dark-theme-default-search-group.svg" alt="search" class="z-10 h-1.1 w-1.1 ">
+        </span>
+      </div>
+      <input type="text"
+        class="leading-normal  border-0 h-search rounded-r-search font-normal  text-base outline-none bg-searchbar-fill text-neutral-50"
+        placeholder="Search" />
+    </div>
+
+    <div class="flex w-search mb-4 relative py-0.6  items-center  bg-searchbar-fill rounded-search gap-0.9 pl-4 h-search border-sm
+    border-twitter-blue">
+      <div class="flex justify-center ">
+        <span class="flex items-center leading-normal ">
+          <img src="/public/images/dark-theme-search-group.svg" alt="search" class="z-10 h-1.1 w-1.1 ">
+        </span>
+      </div>
+      <input type="text"
+        class="leading-normal  rounded-r-search    text-base outline-none font-normal bg-searchbar-fill text-neutral-50 "
+        placeholder="Search" />
     </div>
 
 
+    
+
   </main>
+  <section class="bg-twitter-blue-disable p-20 flex flex-col gap-4">
+
+    <div class="bg-neutral-1000 rounded-2xl w-32 h-22">
+
+    </div>
+
+    <div class="bg-neutral-1000 rounded-2xl w-32 px-0.6 py-0.9">
+      <div class=" py-3 px-4 flex flex-row gap-5">
+        <img src="/public/images/signup-x.svg" alt="close">
+        <p class="text-0.9 font-bold text-neutral-50 ">Header</p>
+      </div>
+      <div class="px-5 pt-20 pb-5">
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="flex m-10">
+    <div class="text-neutral-50 flex flex-row px-4 py-2 gap-4 w-tweet">
+      <div class="grow">
+        <img src="/public/images/user-avatar-tweet.jpg" alt="user-avatar" class="w-12 h-12">
+      </div>
+      
+
+      <div class="grow-0 font-normal">
+          <div class="text-neutral-500 text-base">
+            <span class="text-neutral-50">Name</span>
+            <span>@handle</span>
+            <span>•</span>
+            <span>time</span>
+          </div>
+          <p>Writing gets easier after the first sentence.
+            <br>
+            Lifting gets easier after the first set.
+            <br>
+            People think and think and think until they finally decide to act. Their attention shifts from internal to external, and the difficulty they created in their mind vanishes</p>
+    </div>
+
+
+    </div>
+
+  </section>
 </body>
 
 </html>
