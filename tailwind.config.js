@@ -43,10 +43,12 @@ module.exports = {
         'btn':'4.0625rem',
         'btn-sm':'1.875rem',
         'btn-post':'624.9375rem',
+        'inp': '0.25rem',
       },
       width:{
         'btn-m':'20.875rem',
         'btn-l':'27.625rem',
+        'inp': '26.625rem',
       },
       fontFamily: {
         'inter': ['Inter', 'sans'],
@@ -63,7 +65,8 @@ module.exports = {
       },
       spacing: {
         '0.9':'0.9375rem',
-        '5.8': '5.8125rem'
+        '5.8': '5.8125rem',
+        '0.8': '0.9rem',
       }
 
     },
