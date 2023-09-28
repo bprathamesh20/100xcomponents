@@ -570,24 +570,20 @@ video {
   margin-top: 3.5rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .block {
   display: block;
 }
 
 .flex {
   display: flex;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-0\.9 {
+  height: 0.9375rem;
 }
 
 .h-1 {
@@ -610,20 +606,12 @@ video {
   height: 2.4375rem;
 }
 
-.h-10 {
-  height: 2.5rem;
+.w-0 {
+  width: 0px;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-0 {
-  height: 0px;
-}
-
-.h-0\.9 {
-  height: 0.9375rem;
+.w-0\.9 {
+  width: 0.9375rem;
 }
 
 .w-1 {
@@ -666,34 +654,6 @@ video {
   width: 37.375rem;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-0 {
-  width: 0px;
-}
-
-.w-0\.9 {
-  width: 0.9375rem;
-}
-
-.grow {
-  flex-grow: 1;
-}
-
-.grow-0 {
-  flex-grow: 0;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -726,6 +686,10 @@ video {
   gap: 0.9375rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -744,20 +708,6 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.space-x-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-2xl {
@@ -784,14 +734,6 @@ video {
   border-radius: 6249.9375rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-r-search {
   border-top-right-radius: 6249.9375rem;
   border-bottom-right-radius: 6249.9375rem;
@@ -805,15 +747,7 @@ video {
   border-width: 1px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-b-sm {
-  border-bottom-width: 1px;
-}
-
-.border-b {
   border-bottom-width: 1px;
 }
 
@@ -825,11 +759,6 @@ video {
 .border-neutral-500 {
   --tw-border-opacity: 1;
   border-color: rgb(115 115 115 / var(--tw-border-opacity));
-}
-
-.border-twitter-blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(29 155 240 / var(--tw-border-opacity));
 }
 
 .border-b-neutral-700 {
@@ -868,10 +797,6 @@ video {
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-0 {
@@ -1004,11 +929,6 @@ video {
   line-height: 1rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1019,10 +939,6 @@ video {
 
 .font-normal {
   font-weight: 400;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .leading-normal {
@@ -1073,12 +989,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1114,10 +1024,6 @@ video {
   background-color: rgb(24 113 202 / var(--tw-bg-opacity));
 }
 
-.hover\:underline:hover {
-  text-decoration-line: underline;
-}
-
 .focus\:border-b-m:focus {
   border-bottom-width: 0.1875rem;
 }
@@ -1132,9 +1038,13 @@ video {
   border-bottom-color: rgb(29 155 240 / var(--tw-border-opacity));
 }
 
-.focus\:text-twitter-blue:focus {
+.focus\:stroke-twitter-blue:focus {
+  stroke: #1D9BF0;
+}
+
+.focus\:text-neutral-50:focus {
   --tw-text-opacity: 1;
-  color: rgb(29 155 240 / var(--tw-text-opacity));
+  color: rgb(249 249 249 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -1151,22 +1061,7 @@ video {
   opacity: 0.5;
 }
 
-.group:hover .group-hover\:text-twitter-blue {
-  --tw-text-opacity: 1;
-  color: rgb(29 155 240 / var(--tw-text-opacity));
-}
-
-.group:focus .group-focus\:border-twitter-blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(29 155 240 / var(--tw-border-opacity));
-}
-
 .group:focus .group-focus\:text-twitter-blue {
-  --tw-text-opacity: 1;
-  color: rgb(29 155 240 / var(--tw-text-opacity));
-}
-
-.group:active .group-active\:text-twitter-blue {
   --tw-text-opacity: 1;
   color: rgb(29 155 240 / var(--tw-text-opacity));
 }

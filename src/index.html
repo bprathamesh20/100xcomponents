@@ -81,11 +81,11 @@
     <!-- section  -->
     <div class="text-neutral-50 flex flex-row gap-40  border-b-neutral-700 border-b-sm px-20">
 
-      <button class="font-medium text-neutral-400 focus:border-b-twitter-blue focus:border-b-m pb-4 px-2">For
+      <button class="font-medium text-neutral-400 focus:border-b-twitter-blue focus:text-neutral-50 focus:border-b-m pb-4 px-2">For
         you</button>
 
 
-      <button class="font-medium focus:border-b-twitter-blue focus:border-b-m pb-4 px-2">Following</button>
+      <button class="font-medium text-neutral-400 focus:border-b-twitter-blue focus:border-b-m focus:text-neutral-50 pb-4 px-2">Following</button>
 
     </div>
 
@@ -125,10 +125,12 @@
 
     
 
-    <div class="flex w-search mb-4 relative py-0.6  items-center  bg-searchbar-fill rounded-search gap-0.9 pl-4 h-search">
-      <div class="flex justify-center ">
-        <span class="flex items-center leading-normal ">
-          <img src="/public/images/dark-theme-default-search-group.svg" alt="search" class="z-10 h-1.1 w-1.1 ">
+    <div class="flex w-search mb-4 relative py-0.6  items-center  bg-searchbar-fill rounded-search gap-0.9 pl-4 h-search focus:stroke-twitter-blue ">
+      <div class="flex justify-center group ">
+        <span class="flex items-center leading-normal focus:stroke-twitter-blue ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+            <path d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z" fill="#737373"/>
+            </svg>
         </span>
       </div>
       <input type="text"
@@ -137,14 +139,14 @@
     </div>
 
     <div class="flex w-search mb-4 relative py-0.6  items-center  bg-searchbar-fill rounded-search gap-0.9 pl-4 h-search border-sm
-    border-twitter-blue">
+    group ">
       <div class="flex justify-center ">
         <span class="flex items-center leading-normal ">
           <img src="/public/images/dark-theme-search-group.svg" alt="search" class="z-10 h-1.1 w-1.1 ">
         </span>
       </div>
       <input type="text"
-        class="leading-normal  rounded-r-search    text-base outline-none font-normal bg-searchbar-fill text-neutral-50 "
+        class="leading-normal  rounded-r-search    text-base outline-none font-normal bg-searchbar-fill text-neutral-50 group"
         placeholder="Search" />
     </div>
 
@@ -202,7 +204,7 @@
               <p class="text-neutral-500 text-sm">1,869</p>
             </div>
             <div class="flex flex-row gap-1 items-center">
-              <img src="/public/images/comment.svg" alt="comment" class="h-0.9 w-0.9">
+              <img src="/public/images/analytics.svg" alt="comment" class="h-0.9 w-0.9">
               <p class="text-neutral-500 text-sm">99.6K</p>
             </div>
             <div class="flex flex-row gap-1 items-center">
