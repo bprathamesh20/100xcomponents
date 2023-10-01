@@ -105,18 +105,24 @@
     </div>
 
     <!-- inputs -->
-    <div class="flex flex-col items-start relative group">
-
-      <div class="relative">
-        <p class="text-neutral-500 px-1 bg-neutral-1000 text-xs -mt-2 absolute ml-5 z-10 group-focus:text-twitter-blue">
-          Label</p>
-        <input type="text" placeholder="label"
-          class="py-4 px-3 bg-neutral-1000 rounded-inp border-sm border-neutral-500 w-inp absolute block placeholder:text-neutral-600  focus:border-twitter-blue focus:outline-none text-neutral-50">
-      </div>
-
+    <div class=" flex flex-col gap-7">
+      <fieldset
+        class="w-inp group flex items-center rounded border border-solid border-neutral-500 px-3 py-4 pt-2 focus-within:border-twitter-blue"
+      >
+        <legend
+          class="text-xs font-medium not-italic leading-normal text-neutral-500 group-focus-within:text-twitter-blue"
+        >
+          <div class="px-2">Label</div>
+        </legend>
+        <input
+          type="text"
+          placeholder="Label"
+          class="w-full bg-neutral-1000 text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+        />
+      </fieldset>
     </div>
 
-    <div class="flex mt-14 gap-3">
+    <div class="flex mt-3 gap-3">
       <img src="../../public/images/user-avatar.jpg" alt="">
       <input type="text"
         class="w-btn-l bg-neutral-1000 placeholder:text-neutral-600 placeholder:text-xl focus:outline-none text-neutral-50 caret-twitter-blue"
@@ -125,33 +131,29 @@
 
     
 
-    <div class="flex w-search mb-4 relative py-0.6  items-center  bg-searchbar-fill rounded-search gap-0.9 pl-4 h-search focus:stroke-twitter-blue ">
-      <div class="flex justify-center group ">
-        <span class="flex items-center leading-normal focus:stroke-twitter-blue ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-            <path d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z" fill="#737373"/>
-            </svg>
-        </span>
-      </div>
-      <input type="text"
-        class="leading-normal  border-0 h-search rounded-r-search font-normal  text-base outline-none bg-searchbar-fill text-neutral-50"
-        placeholder="Search" />
+    <div
+      class=" w-search group flex items-center gap-4 rounded-full border border-searchbar-fill bg-searchbar-fill px-4 py-2.5 focus-within:border-twitter-blue"
+    >
+      <svg
+        class="fill-[#737373] group-focus-within:fill-twitter-blue"
+        xmlns="http://www.w3.org/2000/svg"
+        width="17"
+        height="17"
+        viewBox="0 0 17 17"
+        fill="none"
+      >
+        <path
+          d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"
+        ></path>
+      </svg>
+      <input
+        type="text"
+        placeholder="Search"
+        class="font-normal w-full bg-searchbar-fill text-neutral-50 placeholder:text-neutral-600 focus:outline-none"
+      />
     </div>
 
-    <div class="flex w-search mb-4 relative py-0.6  items-center  bg-searchbar-fill rounded-search gap-0.9 pl-4 h-search border-sm
-    group ">
-      <div class="flex justify-center ">
-        <span class="flex items-center leading-normal ">
-          <img src="../../public/images/dark-theme-search-group.svg" alt="search" class="z-10 h-1.1 w-1.1 ">
-        </span>
-      </div>
-      <input type="text"
-        class="leading-normal  rounded-r-search    text-base outline-none font-normal bg-searchbar-fill text-neutral-50 group"
-        placeholder="Search" />
-    </div>
-
-
-    
+   
 
   </main>
   <section class="bg-twitter-blue-disable p-20 flex flex-col gap-4">
